@@ -52,7 +52,7 @@ Mecab을 윈도우에 설치하는데 많은 어려움을 겪었다. 결국 한�
 
 jupyter notebook 환경에서 mecab을 사용하려면, jupyter notebook의 kernel에 내가 만든 가상환경을 추가해야한다. 그것은 내가 따로 [여기](https://github.com/ji-in/note/tree/main/jupyter-notebook)에 정리했다.
 
-mecab을 사용한 코드들은 tok_with_mecab.ipynb 파일에 고이 적어놨다.
+mecab을 사용한 코드들은 [tok_with_mecab.ipynb](./tok_with_mecab.ipynb)에 고이 적어놨다.
 
 ------
 
@@ -81,4 +81,5 @@ if __name__ == "__main__":
 
 그래서 구글링을 통해서 [이 페이지](https://github.com/alvations/sacremoses)를 알아냈고, sacremoses를 설치해서 mosestokenizer를 사용했다. 
 
-mosestokenizer를 사용한 코드들은 tok_with_MosesTokenizer.ipynb 파일에 고이 적어놨다.
+mosestokenizer를 사용한 코드들은 [tok_with_MosesTokenizer.ipynb](./tok_with_MosesTokenizer.ipynb)에 고이 적어놨다.
+
