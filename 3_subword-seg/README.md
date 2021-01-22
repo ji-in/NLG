@@ -14,11 +14,13 @@ After installation, you need to download package inside nltk.
 
 ------
 
-한국어의 경우 띄어쓰기가 제각각이다. 지금 사용하는(ai hub에서 다운 받은) corpus는 정제가 잘 되어 있어서 바로 subword seg를 해도 굉장히 잘 될 것이다. 그러나 일반적으로 크롤링한 데이터의 경우 띄어쓰기가 잘 안되어 있을 것이다. 그 경우 바로 subword seg를 뜻하지 않은 대로 결과가 나올 것이다. 
+한국어의 경우 띄어쓰기가 제각각이다. 지금 사용하는(ai hub에서 다운 받은) corpus는 정제가 잘 되어 있어서 바로 subword seg를 해도 굉장히 잘 될 것이다. 그러나 일반적으로 크롤링한 데이터의 경우 띄어쓰기가 잘 안되어 있을 것이다. 그 경우 바로 subword seg를 하면 뜻하지 않은 대로 결과가 나올 것이다. 
 
 강사님의 경우 tokenization을 한 후에 subword seg를 하는 것을 좋아하신다고 한다. 
 
 영어 같은 경우 쉼표와 마침표만 띄어준다. 영어는 띄어쓰기와 함께 발전해온 언어기 때문에 띄어쓰기가 매우 잘되어 있다.
+
+보통의 경우, tokenization + subword segmentation || only tokenization || only subword segmentation 이라고 한다.
 
 ------
 
