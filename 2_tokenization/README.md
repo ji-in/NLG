@@ -5,15 +5,15 @@ mecab을 corpus.shuf.train.ko, corpus.shuf.valid.ko, corpus.shuf.test.ko에 적�
 mecab을 적용한 후, post_tokenize 파일을 실행해서 corpus.shuf.train.tok.post.ko, corpus.shuf.valid.tok.post.ko, corpus.shuf.test.tok.post.ko 파일들을 얻는다.
 
 ```
->python post_tokenize.py corpus.shuf.valid.tok.ko < corpus.shuf.valid.tok.ko > corpus.shuf.valid.tok.post.ko
+> python post_tokenize.py corpus.shuf.valid.tok.ko < corpus.shuf.valid.tok.ko > corpus.shuf.valid.tok.post.ko
 ```
 
 ```
->python post_tokenize.py corpus.shuf.train.tok.ko < corpus.shuf.train.tok.ko > corpus.shuf.train.tok.post.ko
+> python post_tokenize.py corpus.shuf.train.tok.ko < corpus.shuf.train.tok.ko > corpus.shuf.train.tok.post.ko
 ```
 
 ```
->python post_tokenize.py corpus.shuf.test.tok.ko < corpus.shuf.test.tok.ko > corpus.shuf.test.tok.post.ko
+> python post_tokenize.py corpus.shuf.test.tok.ko < corpus.shuf.test.tok.ko > corpus.shuf.test.tok.post.ko
 ```
 
 post_tokenize.py 파일은 후에 detokenize를 편하게 하기 위함이다.
@@ -29,15 +29,15 @@ MosesTokenizer를 corpus.shuf.train.en, corpus.shuf.valid.en, corpus.shuf.test.e
 MosesTokenizer를 적용한 후, post_tokenize 파일을 실행해서 corpus.shuf.train.tok.post.en, corpus.shuf.valid.tok.post.en, corpus.shuf.test.tok.post.en 파일들을 얻는다.
 
 ```
->python post_tokenize.py corpus.shuf.valid.tok.en < corpus.shuf.valid.tok.en > corpus.shuf.valid.tok.post.en
+> python post_tokenize.py corpus.shuf.valid.tok.en < corpus.shuf.valid.tok.en > corpus.shuf.valid.tok.post.en
 ```
 
 ```
->python post_tokenize.py corpus.shuf.test.tok.en < corpus.shuf.test.tok.en > corpus.shuf.test.tok.post.en
+> python post_tokenize.py corpus.shuf.test.tok.en < corpus.shuf.test.tok.en > corpus.shuf.test.tok.post.en
 ```
 
 ```
->python post_tokenize.py corpus.shuf.train.tok.en < corpus.shuf.train.tok.en > corpus.shuf.train.tok.post.en
+> python post_tokenize.py corpus.shuf.train.tok.en < corpus.shuf.train.tok.en > corpus.shuf.train.tok.post.en
 ```
 
 ------
